@@ -1,0 +1,33 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.pokemon {
+    background-color: aqua;
+
+
+}
+
+.details {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+}
